@@ -29,8 +29,8 @@ export default {
     deployedBlock: 9116966,
     rpcUrls: {
       Infura: {
-        name: 'Infura',
-        url: `https://mainnet.infura.io/v3/${INFURA_KEY}`
+        name: 'Coop3r Mainnet RPC',
+        url: `https://eth.llamarpc.com`
       },
       Alchemy: {
         name: 'Alchemy',
