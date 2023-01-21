@@ -26,62 +26,7 @@
           <div class="level-item is-column">
             <div class="level-subitem">
               <div class="buttons">
-                <b-button
-                  tag="a"
-                  type="is-icon"
-                  :href="duneLink"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  icon-right="stats"
-                ></b-button>
-                <b-button
-                  tag="a"
-                  type="is-icon"
-                  href="https://torn.community"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  icon-right="discourse"
-                ></b-button>
-                <b-button
-                  tag="a"
-                  type="is-icon"
-                  href="https://discord.com/invite/TFDrM8K42j"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  icon-right="discord"
-                ></b-button>
-                <b-button
-                  tag="a"
-                  type="is-icon"
-                  href="https://tornado-cash.medium.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  icon-right="medium"
-                ></b-button>
-                <b-button
-                  tag="a"
-                  type="is-icon"
-                  href="https://twitter.com/TornadoCash"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  icon-right="twitter"
-                ></b-button>
-                <b-button
-                  tag="a"
-                  type="is-icon"
-                  href="https://t.me/TornadoCashOfficial"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  icon-right="telegram"
-                ></b-button>
-                <b-button
-                  tag="a"
-                  type="is-icon"
-                  href="https://github.com/tornadocash"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  icon-right="github"
-                ></b-button>
+                
                 <div class="break"></div>
                 <b-dropdown
                   v-model="$i18n.locale"
