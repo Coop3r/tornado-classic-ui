@@ -456,8 +456,8 @@ export default {
     aggregatorContract: '0x8cb1436F64a3c33aD17bb42F94e255c4c0E871b2',
     rpcUrls: {
       Alchemy: {
-        name: 'Alchemy',
-        url: `https://eth-goerli.alchemyapi.io/v2/${ALCHEMY_GOERLI_KEY}`
+        name: 'Goerli RPC',
+        url: `https://rpc.ankr.com/eth_goerli`
       }
     },
     tokens: {

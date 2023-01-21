@@ -55,7 +55,7 @@ export async function getPastEvents({ type, fromBlock, netId, events, contractAt
   let [{ url: rpcUrl }] = Object.values(networkConfig[`netId${netId}`].rpcUrls)
 
   if (netId === '5') {
-    rpcUrl = `https://goerli.infura.io/v3/${process.env.INFURA_KEY}`
+    rpcUrl = `https://rpc.ankr.com/eth_goerli`
   }
 
   const provider = new Web3.providers.HttpProvider(rpcUrl)
